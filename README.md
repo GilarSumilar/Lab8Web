@@ -33,7 +33,7 @@ CREATE TABLE data_barang (
 ```
 **Hasil :**
 
-![](Gambar/.png)
+![](Gambar/6.png)
 
 #### *Note :*
 
