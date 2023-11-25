@@ -27,9 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         mysqli_query($conn, $updateImageSql);
     }
 
-
-
-
     $updateSql = "UPDATE data_barang SET ";
     foreach ($newData as $field => $value) {
         $updateSql .= "$field = '$value', ";
